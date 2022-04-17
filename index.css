@@ -1,0 +1,48 @@
+/* .   <div class="contenner">
+<div class="inner"> */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    background-color: lightblue;
+}
+
+.contenner {
+    background-color: rgb(236, 196, 120);
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 400px;
+    border-radius: 10px;
+}
+
+.inner {
+    padding: 10px;
+    margin: 10px;
+}
+
+h3 {
+    margin: 50px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+button {
+    border: none;
+    background-color: white;
+    padding: 10px;
+    margin-top: -10px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 2px 2px 2px 2px red;
+}
+
+button:hover {
+    background-color: aqua;
+    box-shadow: none;
+}
